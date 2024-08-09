@@ -3,6 +3,10 @@ cask "font-satoshi" do
   sha256 :no_check 
 
   url "https://api.fontshare.com/v2/fonts/download/satoshi"
+    headers: {
+          "User-Agent" => "Homebrew",
+          # Add any other required headers here
+        }
   name "Satoshi"
   homepage "https://www.fontshare.com/fonts/satoshi"
 
