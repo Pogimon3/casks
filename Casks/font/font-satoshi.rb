@@ -6,6 +6,13 @@ cask "font-satoshi" do
   name "Satoshi"
   homepage "https://www.fontshare.com/fonts/satoshi"
 
+  postflight do
+    system_command "/usr/bin/curl", 
+                   args: ["-o", "#{staged_path}/satoshi.zip", "https://api.fontshare.com/v2/fonts/download/satoshi"]
+    system_command "/usr/bin/unzip", 
+                   args: ["-d", staged_path.to_s, "#{staged_path}/satoshi.zip"]
+  end
+
   font "/Fonts/OTF/Satoshi-BlackItalic.otf"
   font "/Fonts/OTF/Satoshi-Bold.otf"
   font "/Fonts/OTF/Satoshi-BoldItalic.otf"
