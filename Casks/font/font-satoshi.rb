@@ -1,8 +1,6 @@
 cask "font-satoshi" do
   version "1.0"
   sha256 "ec29c9d6ff5b58b200d00b545884312cd621f83608b0806cfca3461ce4926a43"
-  
-  depends_on "jpeg"
 
   url "https://api.fontshare.com/v2/fonts/download/satoshi", using: :homebrew_curl
   name "Satoshi"
