@@ -1,12 +1,13 @@
 cask "font-satoshi" do
   version "1.0"
-  sha256 "044e5689b4b8b477f05d2bc4d1561e29215c20fecbcc5d884c71c15296c539dc"
+  sha256 :no_check
 
-  url "https://api.fontshare.com/v2/fonts/download/satoshi",
-      verified: "fontshare.com"
+  url "https://api.fontshare.com/v2/fonts/download/satoshi"
   name "Satoshi"
+  desc "Modernist sans serif typeface"
   homepage "https://www.fontshare.com/fonts/satoshi"
 
+  font "Satoshi_Complete/Fonts/OTF/Satoshi-Black.otf"
   font "Satoshi_Complete/Fonts/OTF/Satoshi-BlackItalic.otf"
   font "Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf"
   font "Satoshi_Complete/Fonts/OTF/Satoshi-BoldItalic.otf"
@@ -18,5 +19,4 @@ cask "font-satoshi" do
   font "Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf"
   font "Satoshi_Complete/Fonts/TTF/Satoshi-Variable.ttf"
   font "Satoshi_Complete/Fonts/TTF/Satoshi-VariableItalic.ttf"
-
 end
