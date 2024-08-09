@@ -2,6 +2,8 @@ cask "font-satoshi" do
   version "1.0"
   sha256 :no_check 
 
+  depends_on formula: "curl"
+
   url "https://api.fontshare.com/v2/fonts/download/satoshi", using: :homebrew_curl
   name "Satoshi"
   homepage "https://www.fontshare.com/fonts/satoshi"
