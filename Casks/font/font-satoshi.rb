@@ -22,8 +22,8 @@ cask "font-satoshi" do
   font "/Fonts/OTF/Satoshi-Medium.otf"
   font "/Fonts/OTF/Satoshi-MediumItalic.otf"
   font "/Fonts/OTF/Satoshi-Regular.otf"
-  font "/Fonts/TTF/Satoshi-Variable.ttf"
-  font "/Fonts/TTF/Satoshi-VariableItalic.ttf"
+  #font "/Fonts/TTF/Satoshi-Variable.ttf"
+  #font "/Fonts/TTF/Satoshi-VariableItalic.ttf"
 
     # No zap stanza required
 end
