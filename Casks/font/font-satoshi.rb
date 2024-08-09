@@ -1,9 +1,9 @@
 cask "font-satoshi" do
   version "1.0"
 
-  depends_on "curl" => :build
+  #depends_on "curl" => :build
 
-  url "https://api.fontshare.com/v2/fonts/download/satoshi", using: :homebrew_curl
+  url "https://api.fontshare.com/v2/fonts/download/satoshi", using: :post
   name "Satoshi"
   homepage "https://www.fontshare.com/fonts/satoshi"
 
