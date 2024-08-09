@@ -6,7 +6,7 @@ cask "font-satoshi" do
       headers: {
         "User-Agent" => "Homebrew",
         # Add any other required headers here
-      
+      }
   name "Satoshi"
   homepage "https://www.fontshare.com/fonts/satoshi"
 
