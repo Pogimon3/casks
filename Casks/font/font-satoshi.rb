@@ -14,7 +14,7 @@ cask "font-satoshi" do
     system_command "unzip", args: ["-o", target_file, "-d", "#{staged_path}"]
   end
 
-  font "#{staged_path}/OTF/Satoshi-BlackItalic.otf"
+  font "#{staged_path}/Satoshi_Complete/OTF/Satoshi-BlackItalic.otf"
   font "#{staged_path}/OTF/Satoshi-Bold.otf"
   font "#{staged_path}/OTF/Satoshi-BoldItalic.otf"
   font "#{staged_path}/OTF/Satoshi-Italic.otf"
