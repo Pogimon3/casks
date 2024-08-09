@@ -4,7 +4,7 @@ cask "font-satoshi" do
 
   depends_on "curl"
 
-  url "https://api.fontshare.com/v2/fonts/download/satoshi", using :homebrew_curl
+  url "https://api.fontshare.com/v2/fonts/download/satoshi", using: :homebrew_curl
   name "Satoshi"
   homepage "https://www.fontshare.com/fonts/satoshi"
 
