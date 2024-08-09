@@ -10,10 +10,6 @@ cask "font-satoshi" do
   name "Satoshi"
   homepage "https://www.fontshare.com/fonts/satoshi"
 
-  resource "satoshi-font" do
-    url "https://api.fontshare.com/v2/fonts/download/satoshi"
-  end
-
   font "/Fonts/OTF/Satoshi-BlackItalic.otf"
   #font "/Fonts/OTF/Satoshi-Bold.otf"
   #font "/Fonts/OTF/Satoshi-BoldItalic.otf"
