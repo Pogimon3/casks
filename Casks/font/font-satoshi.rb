@@ -7,7 +7,7 @@ cask "font-satoshi" do
   name "Satoshi"
   homepage "https://www.fontshare.com/fonts/satoshi"
 
-  container type: :naked
+  container type: :zip
 
   font "/OTF/Satoshi-BlackItalic.otf"
   #font "/Fonts/OTF/Satoshi-Bold.otf"
